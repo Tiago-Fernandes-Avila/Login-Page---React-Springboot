@@ -1,0 +1,52 @@
+
+.container{
+
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px 2px rgba(222, 220, 220, 0.6);
+    backdrop-filter: blur(10px); /* class effect*/
+    width: 400px;
+    padding: 40px;
+    
+}
+
+.inputText{
+    border-style: none;
+    border-style: none;
+        font-family: sans-serif;
+        padding: 10px;
+        width:90%;
+        border-radius: 15px;
+        margin: 5px;
+        color: black;
+        font-weight: bold;
+        font-size: 16px;
+        text-shadow: none;
+}
+
+
+.forgot{
+margin-left: 20px;
+border-style: none;
+}
+button{
+    border-style: none;
+    padding:10px;
+    border-radius: 5px;
+    width: 100%;
+    color: black;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-shadow: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.title{
+    margin: 15px;
+}
+.form a{
+    text-decoration: none;
+}
+.form a:hover{
+    text-decoration:underline;
+}
