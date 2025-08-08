@@ -28,7 +28,7 @@ export default function (){
             <h1 className="title"> Acesse o Sistema </h1>
             <div className="inp1">
                 <input type="email" className="inputText" placeholder="Email: " autoComplete="user-name" onChange={(e) => setEmail(e.target.value)}/>
-                <FaUser className='icon'></FaUser>
+                                    <FaUser className='icon'></FaUser>
             </div>
             <div>
                 <input type="password" className="inputText" autoComplete="current-password" placeholder="password:  " onChange={ (e) => setPassword(e.target.value)} />
